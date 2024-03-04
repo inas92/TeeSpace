@@ -1,0 +1,14 @@
+/*.header{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+}.wrapper{
+    margin: 0;
+    width: 100%;
+}*/
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+
+}

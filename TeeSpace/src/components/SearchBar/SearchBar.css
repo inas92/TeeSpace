@@ -1,0 +1,76 @@
+.searchwrapper{
+    width: 100%;
+    position: relative;
+    background-color: white;
+}
+.logo{
+    position: absolute;
+    width: 150px;
+    left: 15px;
+
+}
+
+.center-section{
+    position: absolute;
+    height: 48px;
+    left: 288px;
+    right: 504px;
+    top: 33px;
+
+}
+
+.search-bar{
+    position: absolute;
+    height: 48px;
+    left: 15px;
+    right: 15px;
+    top: 0px;
+
+    background: rgba(255, 255, 255, 0.002);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+
+}
+
+.search-icon{
+    position: absolute;
+left: 0%;
+right: 18.75%;
+top: 90.62%;
+bottom: -71.88%;
+
+background: #000000;
+
+
+}
+
+.search-button{
+    
+position: absolute;
+width: 124.2px;
+left: 493.8px;
+top: 0px;
+bottom: 0px;
+
+background: #000000;
+box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.15);
+border-radius: 12px;
+
+}
+.right-section{
+position: absolute;
+height: 55.19px;
+left: 936px;
+right: 0px;
+top: 30px;
+}
+
+.hotline-container{
+    position: absolute;
+    height: 55.19px;
+    left: 99.63px;
+    right: 164.99px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+}
