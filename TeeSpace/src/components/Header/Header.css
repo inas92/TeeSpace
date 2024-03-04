@@ -1,58 +1,57 @@
-
+.headerwrapper{
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    
+}
 
 .wrapper{
     width: 100%;
-     position: absolute;
-    height: 207px;
-    background-color:  white ;
-    margin: 0;
-  
+    position: absolute;
+    background: #F8F8F8;
+    margin: 0 ;
+    padding: 20px;
 }
 
-.h1{
-    color: #7E7E7E;
-}
 .socialbar{
-    background-color: #F8F8F8;
-    position: absolute;
-    height: 48.8px;
-    top: 0px;
-    width: 100%;
+    max-width: 1440px;
+   margin:0 120px;
+   display: flex;
+   flex-direction: row;
 }
 
 .left-section{
     width: 50%;
-    display: flex;
-    align-items: center;
+   display: flex;
+    gap: 5px;
 }
 
 .find-store-link{
     position: absolute;
-    width: 84px;
-    height: 19px;
-    left: 43px;
-    top: 3px;
     font-weight: 500;
     font-size: 15px;
     line-height: 21px;
-    display: flex;
-    align-items: center;
+    padding: 0 30px;
     text-decoration: none;
     color: #7E7E7E;
      
 }
 
 .location-icon {
-    margin-right: 5px;
+    padding: 0 5px;
+    margin-right: 20px;
   }
 
 .right-section{
     width: 50%;
     display: flex;
-    gap: 5px;
+    gap: 20px;
+   flex-flow: row-reverse;
 }
 .social-logo{
-position: absolute;
-height: 28.8px;
-top: 0;
+
+    max-width: 16px;
 }

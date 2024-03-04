@@ -1,76 +1,128 @@
-.searchwrapper{
+.search{
     width: 100%;
-    position: relative;
-    background-color: white;
-}
-.logo{
+    top: 50px;
     position: absolute;
+    padding: 10px;
+}
+.searchwrapper{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    top: 50px;
+    margin-left: 120px;    
+    padding: 20px 0px 0px;
+}  
+.left-sectionsearch{
+    width: 20%;
+}
+
+.logo{
+  
     width: 150px;
-    left: 15px;
 
 }
 
 .center-section{
-    position: absolute;
-    height: 48px;
-    left: 288px;
-    right: 504px;
-    top: 33px;
-
+  
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+   
 }
 
-.search-bar{
-    position: absolute;
-    height: 48px;
-    left: 15px;
-    right: 15px;
-    top: 0px;
-
-    background: rgba(255, 255, 255, 0.002);
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    border-width: 1px, 0px, 1px, 1px;
+    padding: 5px;
+    border-style: solid;
+  
+    border-color: #F5F5F5;
+  
+    background-color: rgba(255, 255, 255, 0.002);
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 12px;
+    border-radius: 12px 0px 0px 12px; 
+}
+.search-input{
+    max-width: 420px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    border: none;
+    padding: 10px;
+    color: #9B9B9B;
+
+    
 
 }
 
 .search-icon{
-    position: absolute;
-left: 0%;
-right: 18.75%;
-top: 90.62%;
-bottom: -71.88%;
-
-background: #000000;
-
-
+max-width: 20px;
+margin: 10px;
 }
 
 .search-button{
     
-position: absolute;
-width: 124.2px;
-left: 493.8px;
-top: 0px;
-bottom: 0px;
 
+width: 124px;
+align-content: flex-end;
+color: white;
 background: #000000;
 box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.15);
 border-radius: 12px;
 
 }
-.right-section{
-position: absolute;
-height: 55.19px;
-left: 936px;
-right: 0px;
-top: 30px;
-}
 
-.hotline-container{
-    position: absolute;
-    height: 55.19px;
-    left: 99.63px;
-    right: 164.99px;
-    top: 0px;
+
+.right-sectionsearch{
+display: flex;
+justify-content: flex-end;
+gap: 55px;
+width: 504px;
+margin: 10px 20px 0px 20px;
+}
+.hotline{
+    width: 240px;
     display: flex;
     flex-direction: row;
 }
+.phone-icon{
+    padding: 15px;
+    width: 48px;
+    height: 48px;
+    background: #F5F5F5;
+    border-radius: 24px;
+
+}
+.hotline-container{
+ 
+   width: 182px;
+    display: flex;
+    flex-direction: column;
+    height: 48px;
+    margin: 0 10px;
+    gap: 15px;
+}
+.hotline-number{
+    color: #000000;
+    margin: 0;
+    font-weight: 700;
+}
+.pick{
+    color: #9B9B9B;
+    margin: 0; 
+    font-weight: 500;
+}
+
+.counter{
+    position: relative;
+    right: -10px;
+    width: 18px;
+    top: -2px;
+    background: #2EBB77;
+    border-radius: 9px;
+    color: white;
+}
+
