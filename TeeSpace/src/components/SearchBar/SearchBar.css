@@ -10,8 +10,8 @@
     flex-direction: row;
     align-items: flex-start;
     top: 50px;
-    margin-left: 120px;    
-    padding: 20px 0px 0px;
+    margin: 0 auto;
+    padding: 20px;    
 }  
 .left-sectionsearch{
     width: 20%;

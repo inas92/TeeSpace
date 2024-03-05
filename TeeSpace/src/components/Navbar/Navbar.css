@@ -11,8 +11,7 @@
     display: flex;
     background-color: white;
     color:black;
-    padding: 20px 0px 0px ;
-    margin-left: 120px;
+    margin: 0 auto;
   }
   
   .left-containernav {

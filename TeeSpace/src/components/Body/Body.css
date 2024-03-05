@@ -1,0 +1,6 @@
+.bodywrapper{
+    position: relative;
+    max-width: 1440px;
+    top: 250px;
+    margin: 0 auto;
+}
