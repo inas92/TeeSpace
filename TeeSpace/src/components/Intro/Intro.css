@@ -1,6 +1,76 @@
 .Introwrapper{
-     position: relative;
+    position: relative;
     max-width: 1440px;
     background: #E5F4ED;
-    padding: 200px 0px 0px 0px;
+    padding: 60px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
 }
+.leftintro{
+    max-width: 40%;
+    padding: 10px;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+
+.first{
+   
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+   text-align: center;
+    color: #000000;
+
+}
+
+.second{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    color: #7E7E7E;
+    justify-content: space-evenly;
+  
+}
+
+.rightintro{
+    max-width: 50%;
+    padding: 30px 70px;
+    margin: 50px;
+    flex-grow: 2;
+}
+
+.btnwrap{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 180px 200px; 
+    gap: 5px; /* Adjust the gap between images */
+  }
+  
+  .grid-item {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .column1 img {
+    width: 100%;
+    height: 172px; /* Adjust the initial height of the first column's images */
+    object-fit: none; /* Maintain image aspect ratio */
+  }
+  
+  .column2 img {
+    width: 100%;
+    height: 198px; /* Adjust the initial height of the second column's images */
+    object-fit: contain; /* Maintain image aspect ratio */
+  }

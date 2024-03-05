@@ -5,8 +5,8 @@ const  App=() =>{
   return(
   <>
    <Header/>
-    <Body/>
-      </>
+   <Body/>
+  </>
   );
 }
 

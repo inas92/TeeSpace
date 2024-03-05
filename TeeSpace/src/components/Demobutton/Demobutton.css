@@ -1,0 +1,16 @@
+.demo-btn{
+    background: #2EBB77;
+    border-radius: 12px;
+    max-width: 180px;
+    border: none;
+    padding: 25px 22px;
+}
+
+.button-text{
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+  
+}
+
