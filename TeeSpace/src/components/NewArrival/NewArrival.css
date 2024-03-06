@@ -1,0 +1,135 @@
+.arrival-wrapper{
+    position: relative;
+    max-width: 1440px;
+}
+
+.arrival-header{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.new,
+.salearrival
+{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.new{
+    margin-left:  24px;
+}
+.salearrival{
+    color: rgba(155, 155, 155, 0.6);
+}
+
+
+.arrival-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.arrivalimage{
+    height: 440px;
+    border-radius: 12px;
+
+}
+
+.arrivalimage-name{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    justify-content: center;
+    margin: 10px 0px 5px 0px;
+}
+.arrivalimage-price{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 29px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    color: #000000;
+}
+
+.oldPrice{
+  
+    font-weight: 500;
+    font-size: 13.6px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #9B9B9B;
+    margin: 0;
+}
+
+.newPrice{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #2EBB77;
+
+}
+
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.discount-label,
+.hot-label,
+.hot-label1{
+    border-radius: 3px;
+    position: absolute;
+    
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.discount-label{
+    background: #2EBB77;
+    padding-inline: 6px;
+    transform: translateX(30%) translateY(50%);
+    z-index: 2;
+}
+
+.hot-label{
+    position: absolute;
+    background: #F09155;
+    padding-inline: 5px;
+  
+    transform: translateX(32%) translateY(50%);
+}
+.hot-label-with-discount {
+    top: 190px;
+    padding-inline: 12px;
+  }
+
+.hot-label1{
+    position: absolute;
+    background: #F09155;
+    padding-inline: 6px;
+    transform: translateX(40%) translateY(100%);
+}

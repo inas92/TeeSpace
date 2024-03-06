@@ -1,0 +1,60 @@
+.createwrapper{
+    position: relative;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.leftchild,
+.rightchild{
+    flex: 1;
+    height: 390px;
+    padding: 10px;
+    margin: 10px; 
+}
+
+
+.leftbanner,
+.rightbanner {
+   height: -webkit-fill-available;
+  background-size: cover;
+  background-position: center; 
+  border-radius: 12px;
+}
+
+.text1,
+.text2{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0px 0px 45px;
+}
+
+.headcreate{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    max-width: 230px;
+}
+
+.textleft,
+.textright{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #7E7E7E;
+   
+}
+
+.textleft{
+    max-width: 226px;
+}
+
+.textright{
+    max-width: 238px;
+}

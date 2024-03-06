@@ -3,4 +3,19 @@ import Service1 from "./service-detail-2.png";
 import Service2 from "./service-detail-3.png";
 import Service3 from "./service-detail-4.png";
 import Service4 from "./service-detail-5.png";
-export {logo ,Service1 ,Service2 ,Service3 ,Service4}
+import arrow from "./Vector (2).png";
+import arrow2 from "./Vector (1).png";
+import arrow3 from "./Vector (3).png";
+import tshirt from "./tshirt.png";
+import sweater from "./sweater.png";
+import hoodie from "./hoodie.png";
+import long from "./long.png";
+import tanktop from "./tanktop.png";
+import polygon from "./Polygon.png";
+import banner1 from "./banner1.png";
+import banner2 from "./banner2.png";
+import arrival1 from "./arrival1.png";
+import arrival2 from "./arrival2.png";
+import arrival3 from "./arrival3.png";
+import arrival4 from "./arrival4.png";
+export {logo ,Service1 ,Service2 ,Service3 ,Service4 , arrow , arrow2, arrow3, tshirt ,sweater ,hoodie, long,tanktop,polygon,banner1,banner2, arrival1, arrival2, arrival3, arrival4}

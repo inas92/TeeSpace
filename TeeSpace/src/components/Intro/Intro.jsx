@@ -1,15 +1,23 @@
 //import React from 'react'
-import Demobutton from "../Demobutton/Demobutton.jsx";
+//import Demobutton from "../Demobutton/Demobutton.jsx";
 import "./Intro.css";
-import { Service1 ,Service2 ,Service3, Service4 } from "../../assets/index.js";
+import { Service1 ,Service2 ,Service3, Service4,arrow ,arrow2, arrow3} from "../../assets/index.js";
 const Intro = () => {
   return (
     <div className="Introwrapper">
       <div className="leftintro">
         <p className="first"> Lets configure you own print product</p>
+        <img className="arrow3" src={arrow3} alt="arrow3" />
+        <img className="arrow2" src={arrow2} alt="arrow2" />
+        <img className="arrow" src={arrow} alt="arrow" />
+        
         <p className="second">The easiest way to get your print as you want</p>
+        
         <div className="btnwrap">
-          <Demobutton text="Print Your Own" />
+        <button className="btnintro">
+        <span className="button-text" > Print Your Own</span>
+    </button>
+          
         </div>
       </div>
       <div className="rightintro">

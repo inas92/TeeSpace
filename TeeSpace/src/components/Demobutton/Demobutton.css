@@ -1,9 +1,10 @@
 .demo-btn{
+    position: absolute;
     background: #2EBB77;
     border-radius: 12px;
-    max-width: 180px;
+    top: 300px;
     border: none;
-    padding: 25px 22px;
+    padding: 16px 27px;
 }
 
 .button-text{
@@ -14,3 +15,7 @@
   
 }
 
+.arrow-icon{
+    margin-left: 8px;
+
+}
