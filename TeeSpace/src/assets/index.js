@@ -18,4 +18,30 @@ import arrival1 from "./arrival1.png";
 import arrival2 from "./arrival2.png";
 import arrival3 from "./arrival3.png";
 import arrival4 from "./arrival4.png";
-export {logo ,Service1 ,Service2 ,Service3 ,Service4 , arrow , arrow2, arrow3, tshirt ,sweater ,hoodie, long,tanktop,polygon,banner1,banner2, arrival1, arrival2, arrival3, arrival4}
+import hot1 from "./hotimage1.png";
+import hot2 from "./hotimage2.png";
+import hot3 from "./hotimage3.png";
+import custom from "./custom.png";
+import template1 from "./template1.png";
+import template2 from "./template2.png";
+import template3 from "./template3.png";
+import template4 from "./template4.png";
+import site1 from "./site1.png";
+import site2 from "./site2.png";
+import site3 from "./site3.png";
+import site4 from "./site4.png";
+import site5 from "./site5.png";
+import site6 from "./site6.png";
+import site7 from "./site7.png";
+import site8 from "./site8.png";
+import apple from "./apple.png";
+import google from "./google-play.png";
+import avatar from './avater.png';
+import testback from "./downloadtest.png";
+import gallery1 from "./gallery1.png";
+import gallery2 from "./gallery2.png";
+import gallery3 from "./gallery3.png";
+import gallery4 from "./gallery4.png";
+import gallery5 from "./gallery5.png";
+
+export {gallery1,gallery2,gallery3,gallery4,gallery5,apple,google,avatar,testback,site1, site2,site3,site4,site5,site6,site7,site8,template1,template2,template3,template4,custom,logo ,Service1 ,Service2 ,Service3 ,Service4 , arrow , arrow2, arrow3, tshirt ,sweater ,hoodie, long,tanktop,polygon,banner1,banner2, arrival1, arrival2, arrival3, arrival4 ,hot1, hot2, hot3}

@@ -1,0 +1,93 @@
+.About-container{
+    max-width: 1440px;
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+ 
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.textbox-head{
+    font-weight: 700;
+font-size: 28px;
+line-height: 39px;
+display: flex;
+align-items: center;
+margin: 0 25px;
+}
+.About-left{
+max-width: 30%;
+align-items: flex-start;
+}
+
+
+.address1,
+.address2,
+.address3{
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.address2{
+    padding-right: 15px;
+}
+.address3{
+padding-right: 100px;
+}
+.a{
+    text-decoration: none;
+}
+.addresstext{
+    font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+display: flex;
+align-items: center;
+margin: 0 0 20px 0;
+
+}
+.abox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.emailaddress{
+    font-weight: 500;
+font-size: 16px;
+line-height: 29px;
+display: flex;
+align-items: center;
+max-width: 226px;
+color: #7E7E7E;
+margin-top: 0;
+}
+
+.number{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.abouttext{
+    font-weight: 500;
+font-size: 16px;
+
+display: flex;
+align-items: center;
+
+color: #7E7E7E;
+text-decoration: none;
+}
+
+

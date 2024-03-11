@@ -1,0 +1,95 @@
+.custom-wrapper{
+    position: relative;
+    max-width: 1440px;
+    background: rgba(180, 121, 217, 0.15);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-header{
+    margin: 70px;
+    font-weight: 700;
+font-size: 28px;
+line-height: 39px;
+display: flex;
+justify-content: center;
+text-align: center;
+
+color: #000000;
+
+}
+
+.custombody{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 70px 70px 70px;
+}
+
+.custom-left{
+    max-width: 38%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+.custom-text{
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+align-items: center;
+max-width: 320px;
+color: #000000;
+}
+
+
+.custom-right{
+    max-width: 50%;
+}
+
+.first-custom{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+}
+
+
+.custom-one,
+.custom-two{
+width: 40px;
+height: 40px;
+box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.13);
+border-radius: 20px;
+font-weight: 700;
+font-size: 18px;
+line-height: 40px;
+display: flex;
+justify-content: center;
+text-align: center;
+margin: 20px 0px;
+}
+
+.custom-one{
+    color: #FFFFFF;
+    background: #2EBB77;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+}
+.dash{
+  
+    background: linear-gradient(to bottom, #CCCCCC 50%, transparent 50%) repeat-y;
+    background-size: 100% 32px;
+    width: 2px;
+height: 37.38px;
+margin-left: 18px;
+}
+/*  border: 1px dashed #CCCCCC;*/
+.custom-two{
+    color:#2EBB77;
+    background: white;
+}

@@ -1,0 +1,14 @@
+.gallery-wrapper{
+    max-width: 1440px;
+    position: relative;
+    margin-top: 200px;
+}
+
+.gallery-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.gallery-image{
+    border-radius: 12px;
+}

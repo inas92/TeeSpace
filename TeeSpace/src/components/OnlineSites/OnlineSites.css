@@ -1,0 +1,54 @@
+.site-wrapper{
+    position: relative;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.leftsite{
+  flex:1;
+}
+
+.rightlogosite{
+  display: flex;
+}
+.sitebutton{
+    position: absolute;
+    width: 137.58px;
+    border: 2px solid #EEEEEE;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #000000;
+    background-color: white;
+}
+.logo-grid{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+column-gap: 15px;
+}
+
+.grid-item{
+    text-align: center;
+    padding: 5px;
+   
+}
+
+.sitehead{
+    margin-top
+    
+    : 30px;
+font-weight: 700;
+font-size: 28px;
+line-height: 39px;
+display: flex;
+align-items: center;
+color: #000000;
+
+}
