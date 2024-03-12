@@ -1,8 +1,9 @@
 //import React from 'react'
-//import About from '../About/About'
+import About from '../About/About'
 import Createbanner from '../Createbanner/Createbanner'
 import Custom from '../Custom/Custom'
 import Explore from '../Explore/Explore'
+import Footer from '../Footer/Footer'
 import Gallery from '../Gallery/Gallery'
 import HotSale from '../HotSale/HotSale'
 import Intro from '../Intro/Intro'
@@ -26,7 +27,8 @@ const Body = () => {
         <Testimonial/>
         <News/>
         <Gallery/>
-       
+       <About/>
+       <Footer/>
     </div>
   )
 }

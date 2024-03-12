@@ -43,5 +43,13 @@ import gallery2 from "./gallery2.png";
 import gallery3 from "./gallery3.png";
 import gallery4 from "./gallery4.png";
 import gallery5 from "./gallery5.png";
-
-export {gallery1,gallery2,gallery3,gallery4,gallery5,apple,google,avatar,testback,site1, site2,site3,site4,site5,site6,site7,site8,template1,template2,template3,template4,custom,logo ,Service1 ,Service2 ,Service3 ,Service4 , arrow , arrow2, arrow3, tshirt ,sweater ,hoodie, long,tanktop,polygon,banner1,banner2, arrival1, arrival2, arrival3, arrival4 ,hot1, hot2, hot3}
+import symbol1 from "./symbol1.png";
+import symbol2 from "./symbol2.png";
+import symbol3 from "./symbol3.png";
+import symbol4 from "./symbol4.png";
+import footer from "./footer.png";
+import vector4 from "./Vector (4).png";
+import vector5 from "./Vector (5).png";
+import vector6 from "./Vector (6).png";
+import vector7 from "./Vector (7).png";
+export {vector7,vector4,vector6,vector5,footer,symbol1,symbol2,symbol3,symbol4,gallery1,gallery2,gallery3,gallery4,gallery5,apple,google,avatar,testback,site1, site2,site3,site4,site5,site6,site7,site8,template1,template2,template3,template4,custom,logo ,Service1 ,Service2 ,Service3 ,Service4 , arrow , arrow2, arrow3, tshirt ,sweater ,hoodie, long,tanktop,polygon,banner1,banner2, arrival1, arrival2, arrival3, arrival4 ,hot1, hot2, hot3}

@@ -1,7 +1,7 @@
 //import React from 'react'
 //import Demobutton from "../Demobutton/Demobutton.jsx";
 import "./Intro.css";
-import { Service1 ,Service2 ,Service3, Service4,arrow ,arrow2, arrow3} from "../../assets/index.js";
+import { Service1 ,Service2 ,Service3, Service4,arrow ,arrow2, arrow3, polygon} from "../../assets/index.js";
 const Intro = () => {
   return (
     <div className="Introwrapper">
@@ -32,6 +32,9 @@ const Intro = () => {
           </div>
         </div>
       </div>
+      <img src={polygon} alt="polygon" className="polygon1" />
+      <img src={polygon} alt="polygon" className="polygon2" />
+<img src={polygon} alt="polygon" className="polygon3" />
     </div>
   );
 };

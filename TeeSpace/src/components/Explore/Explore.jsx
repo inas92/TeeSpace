@@ -1,6 +1,8 @@
 //import React from 'react'
 import { hoodie, long, sweater, tanktop, tshirt } from "../../assets";
 import "./Explore.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
 const Explore = () => {
   const images = [
     { src: tshirt, name: "T-shirts", number: "6" },
@@ -22,6 +24,10 @@ const Explore = () => {
             </p>
           </div>
         ))}
+      </div>
+      <div className="navigationnew">
+        <button className="upButton"><FontAwesomeIcon icon={faAngleUp} className="caretup" /></button>
+      
       </div>
     </div>
   );

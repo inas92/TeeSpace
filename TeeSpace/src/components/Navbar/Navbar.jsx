@@ -1,7 +1,7 @@
 //import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDown, faFire } from '@fortawesome/free-solid-svg-icons';
+import { faAngleDown, faFire , faAngleRight} from '@fortawesome/free-solid-svg-icons';
 import './Navbar.css'; 
 //import { fire } from '../../assets';
 
@@ -10,8 +10,8 @@ const Navbar = () => {
     <div className='navbar'>
     <div className="navbarwrapper">
       <div className="left-containernav">
-        <div className="nav-item">
-          Home <FontAwesomeIcon icon={faAngleDown} className="dropdown-icon" />
+        <div className="nav-item1">
+          Home <FontAwesomeIcon icon={faAngleDown} className="dropdown-icon1" />
         </div>
         <div className="nav-item">
           TeeSpace <FontAwesomeIcon icon={faAngleDown} className="dropdown-icon" />
@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className='fire'> <FontAwesomeIcon icon={faFire}/> </div>
         <p className="hot-sale-text">Extra   </p>
         <p className='sale'>  sale 30%</p>
-        <p className='hot-sale-text'>off</p>
+        <p className='hot-sale-text'>off <FontAwesomeIcon icon={faAngleRight} className="drop-icon" /></p>
       </div>
     </div>
     </div>

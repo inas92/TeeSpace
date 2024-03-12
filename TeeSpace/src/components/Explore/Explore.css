@@ -65,3 +65,27 @@
     color: #7E7E7E; 
   }
   
+
+  
+.navigationnew {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+
+.upButton{
+  width: 48px;
+height: 48px;
+transform: translate(200px);
+border: none;
+background: rgba(0, 0, 0, 0.3);
+border-radius: 3px;
+
+}
+
+.caretup{
+  color: white;
+}

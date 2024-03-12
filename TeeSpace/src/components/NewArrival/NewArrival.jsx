@@ -53,8 +53,13 @@ const NewArrival = () => {
                 {image.oldPrice && <p className="oldPrice">{image.oldPrice}</p>}
               </div>
             </div>
+    
           </div>
         ))}
+      </div>
+      <div className="navigation">
+        <button className="prevButton"></button>
+        <button className="nextButton"></button>
       </div>
     </div>
   );

@@ -99,3 +99,29 @@
     border: none;
     padding: 16px 36px;
 }
+
+
+.polygon1,
+.polygon2,
+.polygon3{
+  background: #E5F4ED;
+  position: absolute; 
+  width: 78px;
+  height: 84px;
+}
+
+.polygon1{
+  top: 300px;
+transform: rotate(38.27deg);
+}
+.polygon2{
+  top: 452px;
+  left: 600px;
+transform: rotate(43.25deg);
+}
+
+.polygon3{
+  top: 52px;
+  left: 744px;
+transform: rotate(52.58deg);
+}
