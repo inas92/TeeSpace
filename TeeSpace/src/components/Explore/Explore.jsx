@@ -3,8 +3,8 @@ import { hoodie, long, sweater, tanktop, tshirt } from "../../assets";
 import "./Explore.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
-import View from "../View/View.jsx";
-import { BrowserRouter as Router, Route, Link ,Routes, Outlet } from "react-router-dom";
+//import View from "../View/View.jsx";
+import {   Link  } from "react-router-dom";
 const Explore = () => {
   const images = [
     { src: tshirt, name: "T-shirts", number: "6" },
@@ -17,7 +17,7 @@ const Explore = () => {
     <div className="explore-wrapper">
       <h2 className="heading">Shopping by Categories</h2>
       <div className="image-row">
-        <Router>
+       
           {images.map((image, index) => (
             <div key={index} className="image-container">
               <img src={image.src} alt={image.name} className="gallery-image" />
@@ -27,11 +27,7 @@ const Explore = () => {
               </Link>
             </div>
           ))}
-          <Routes>
-          <Route path="/view" element={<View/>} />
-          </Routes>
-        </Router>
-        <Outlet/>
+        
       </div>
       <div className="navigationnew">
         <button className="upButton">
